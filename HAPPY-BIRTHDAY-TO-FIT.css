@@ -1497,3 +1497,20 @@
 .u-container-layout.hover .u-section-3 .u-text-3 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
+@media only screen and (min-width: 1000px) {
+    .u-section-1 .u-sheet-1 {
+        flex-direction: row-reverse;
+        width: 100%;
+        max-width: 50vw;
+        max-height: unset;
+    }
+ }
+
+ @media only screen and (max-height: 640px) {
+    .u-section-1 .u-sheet-1 {
+        flex-direction: row-reverse;
+        width: 100%;
+        max-width: 50vw;
+        max-height: unset;
+    }
+ }
